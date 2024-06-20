@@ -3,39 +3,41 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Drum Kit</title>
+    <title>Pokémon Soundboard</title>
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header>
-        <h1 class="title">Pokémon Sound Board</h1>
-        <p>Press the below keys to hear each Pokémon!</p>
-    </header>
-    <div class="main">
-        <div class="board">
-            <div class="button">
-                <button class="p pikachu sound"></button>
-                <div class="letter">P</div>
+    <div class="wrapper">
+        <header class="header">
+            <h1 class="title">Pokémon Soundboard</h1>
+            <p class="instruction">Press the below keys to hear each Pokémon!</p>
+        </header>
+        <main class="main">
+            <div class="board">
+                <div class="button">
+                    <button class="p pikachu sound"></button>
+                    <div class="letter">P</div>
+                </div>
+                <div class="button">
+                    <button class="b bulbasaur sound"></button>
+                    <div class="letter">B</div>
+                </div>
+                <div class="button">
+                    <button class="c charmander sound"></button>
+                    <div class="letter">C</div>
+                </div>
+                <div class="button">
+                    <button class="s squirtle sound"></button>
+                    <div class="letter">S</div>
+                </div>
             </div>
-            <div class="button">
-                <button class="b bulbasaur sound"></button>
-                <div class="letter">B</div>
-            </div>
-            <div class="button">
-                <button class="c charmander sound"></button>
-                <div class="letter">C</div>
-            </div>
-            <div class="button">
-                <button class="s squirtle sound"></button>
-                <div class="letter">S</div>
-            </div>
-        </div>
+        </main>
     </div>
     <script src="index.js"></script>
-    <footer>
+    <footer class="footer">
         Coded with <span class="emoji">💛</span> by Steven Jackson.
     </footer>
 </body>
