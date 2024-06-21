@@ -1,5 +1,8 @@
 # Pokémon Soundboard
 
+![Pokémon Soundboard Preview](images/screenshot-desktop.png)
+![Pokémon Soundboard Preview](images/screenshot-mobile.png)
+
 A fun and interactive Pokémon soundboard web application where users can press buttons to hear sounds of different Pokémon characters.
 
 ## Features
