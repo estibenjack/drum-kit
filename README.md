@@ -59,18 +59,18 @@ A fun and interactive Pokémon soundboard web application where users can press 
 ## How To Use
 
 ### Option 1: Visit the live demo
-To use Pokémon Soundboard, [visit the live demo](https://estibenjack.github.io/p/) and start drawing!
+To use Pokémon Soundboard, [visit the live demo](https://estibenjack.github.io/pokemon-soundboard/) and start drawing!
 
 
 ### Option 2: Clone using Git
 1. **Clone this repository:**
     ```sh
-    $ git clone https://github.com/estibenjack/pokemon-sound-board.git
+    $ git clone https://github.com/estibenjack/pokemon-soundboard.git
     ```
 
 2. **Go into the repository:**
     ```sh
-    $ cd pokemon-sound-board
+    $ cd pokemon-soundboard
     ```
 
 3. **Open index.html:**
